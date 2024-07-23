@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style_sass.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -28,13 +28,9 @@
                 </div>
                 <div class="button button_login">
                     <img src="icons/steam.svg" alt="steam icon">
-                    <p class="button_text button_login_text">Try it now</p>
-                </div>
-                <div class="slider_dots_box">
-                    <div class="slider_dot slider_dot_1"></div>
-                    <div class="slider_dot slider_dot_2"></div>
-                    <div class="slider_dot slider_dot_3"></div>
-                    <div class="slider_dot slider_dot_4"></div>
+                    <p class="button_text button_login_text"><a
+                            href="https://auth.dota.trade/login?redirectUrl=https://cs.money/&callbackUrl=https://cs.money/login">
+                            Try it now </a></p>
                 </div>
             </div>
         </section>
@@ -43,7 +39,7 @@
             <div class="container">
                 <div class="wrapper site_info_wrapper">
                     <div class="window window_skins">
-                        <div class="window_title">
+                        <div class="title title_window">
                             <h3>876 879 skins</h3>
                         </div>
                         <div class="window_dscr">
@@ -55,7 +51,7 @@
                     </div>
 
                     <div class="window window_support">
-                        <div class="window_title">
+                        <div class="title title_window">
                             <h3>Support 24/7</h3>
                         </div>
                         <div class="window_dscr">
@@ -69,7 +65,6 @@
             </div>
         </section>
 
-
         <section class="trade">
             <div class="container trade_container">
                 <img src="icons/trade_mode.svg" alt="Trade mode" div class="trade_logo">
@@ -81,8 +76,6 @@
                     </div>
                     <div class="info_box">
                         <div class="info_box_wrapper">
-                            <div class="loading_icon"><img src="icons/loading_icon.svg" alt="loading icon">
-                            </div>
                             <div class="info_box_title_wrapper">
                                 <div class="info_box_title">
                                     <h2>Instant trades</h2>
@@ -93,22 +86,12 @@
                             </div>
                         </div>
                         <div class="info_box_divider"></div>
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-                            <div class="info_box_points_text">Trade skins with a profit
-                            </div>
+                        <div class="info_box_points_text">Trade skins with a profit
                         </div>
                         <div class="info_box_divider"></div>
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-                            <div class="info_box_points_text">Easy top-up</div>
-                        </div>
+                        <div class="info_box_points_text">Easy top-up</div>
                         <div class="info_box_divider"></div>
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-
-                            <div class="info_box_points_text">Always at hand</div>
-                        </div>
+                        <div class="info_box_points_text">Always at hand</div>
                     </div>
                 </div>
             </div>
@@ -125,9 +108,6 @@
                     </div>
                     <div class="info_box market_info_box">
                         <div class="info_box_wrapper market_info_box_wrapper">
-                            <div class="loading_icon">
-                                <img src="icons/loading_icon.svg" alt="loading icon">
-                            </div>
                             <div class="info_box_title_wrapper market_info_box_title_wrapper">
                                 <div class="info_box_title market_info_box_title">
                                     <h2>Make money</h2>
@@ -140,28 +120,11 @@
 
                         </div>
                         <div class="info_box_divider"></div>
-
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-
-                            <div class="info_box_points_text market_info_box_point_text">Instant Play & Sell</div>
-                        </div>
-
+                        <div class="info_box_points_text market_info_box_point_text">Instant Play & Sell</div>
                         <div class="info_box_divider"></div>
-
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-
-                            <div class="info_box_points_text market_info_box_point_text">No tradelock</div>
-                        </div>
-
+                        <div class="info_box_points_text market_info_box_point_text">No tradelock</div>
                         <div class="info_box_divider"></div>
-
-                        <div class="info_box_point_wrapper">
-                            <img src="icons/info_box_point_icon.svg" alt="point" class="info_box_point_icon">
-
-                            <div class="info_box_points_text market_info_box_point_text">Withdraw real money</div>
-                        </div>
+                        <div class="info_box_points_text market_info_box_point_text">Withdraw real money</div>
                     </div>
                 </div>
             </div>
@@ -171,7 +134,7 @@
             <div class="container">
                 <div class="wrapper features_wrapper">
                     <div class="window skin_viewer_window">
-                        <div class="window_title">
+                        <div class="title title_window">
                             <h3>3D Skin Viewer</h3>
                         </div>
                         <div class="window_dscr skin_viewer_window_dscr">
@@ -180,14 +143,16 @@
                                 and lighting settings.
                             </h2>
                         </div>
-                        <div class="button skin_viewer_button">
-                            <p class="button_text skin_viewer_button_text">Go to 3D Skin Viewer</p>
-                        </div>
+                        <a href="https://3d.cs.money/">
+                            <div class="button skin_viewer_button">
+                                <p class="button_text skin_viewer_button_text">Go to 3D Skin Viewer</p>
+
+                            </div>
+                        </a>
                         <img src="img/skin_viewer.png" alt="3D skin viewer preview" class="skin_viewer_img">
                     </div>
-
                     <div class="window wiki_window">
-                        <div class="window_title">
+                        <div class="title title_window">
                             <h3>Wiki.CS.MONEY</h3>
                         </div>
                         <div class="window_dscr wiki_window_dscr">
@@ -195,148 +160,145 @@
                                 with a valuation of your inventory.
                             </h2>
                         </div>
-                        <div class="button wiki_button">
-                            <p class="button_text wiki_button_text">Go to Wiki</p>
-                        </div>
+                        <a href="https://wiki.cs.money/">
+                            <div class="button wiki_button">
+                                <p class="button_text wiki_button_text">Go to Wiki</p>
+                            </div>
+                        </a>
                         <img src="img/wiki.png" alt="wiki page example" class="wiki_img">
                     </div>
                 </div>
             </div>
         </section>
-
-
-        <section class="join_us">
-            <div class="container">
-                <div class="window join_us_window">
-                    <div class="title join_us_title">
-                        <h3>Join the millions <br> of players</h3>
-                    </div>
-                    <div class="dscr join_us_dscr">
-                        <h2>Millions of players have trusted us <br>and trade skins every day.</h2>
-                    </div>
-                    <div class="button join_us_button">
-                        <p class="button_text join_us_button_text">Try it Now</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
-
-
 
     <footer>
         <div class="container footer_container">
             <div class="window footer_window">
                 <div class="wrapper footer_wrapper">
-                    <img src="icons/CS.MONEY_Full.svg" alt="CS.MONEY logo" class="cs_money_icon">
+                    <a href="https://cs.money/csgo/trade/"><img src="icons/CS.MONEY_Full.svg" alt="CS.MONEY logo"
+                            class="cs_money_icon"></a>
                     <div class="section_title_footer">
                         <h3 class="list_title">Trade</h3>
                         <ul class="list_item">
-                            <li>Trade</li>
-                            <li>Sell</li>
-                            <li>Auction</li>
-                            <li>History</li>
-                            <li>Prime</li>
+                            <li><a href="https://cs.money/csgo/trade/">Trade</a></li>
+                            <li><a href="https://cs.money/csgo/sell/">Sell</a></li>
+                            <li><a href="https://cs.money/csgo/auction/">Auction</a></li>
+                            <li><a href="https://cs.money/transactions/">History</a></li>
+                            <li><a href="https://cs.money/prime/?source=footer_landing/">Prime</a></li>
                         </ul>
                     </div>
                     <div class="section_title_footer">
                         <h3 class="list_title">Market</h3>
                         <ul class="list_item">
-                            <li>Buy</li>
-                            <li>Sell</li>
-                            <li>History</li>
-                            <li>Cashout</li>
+                            <li><a href="https://cs.money/market/buy">Buy</a></li>
+                            <li><a href="https://cs.money/market/sell/">Sell</a></li>
+                            <li><a href="https://cs.money/market/history/">History</a></li>
+                            <li><a href="https://cs.money/market/cashout/">Cashout</a></li>
                         </ul>
                     </div>
                     <div class="section_title_footer">
                         <h3 class="list_title">Additional</h3>
                         <ul class="list_item">
-                            <li>Personal area</li>
-                            <li>FAQ</li>
-                            <li>Visual settings</li>
-                            <li>Item status</li>
-                            <li>Trade bots</li>
+                            <li><a href="https://cs.money/personal-info">Personal area</a></li>
+                            <li><a href="https://cs.money/faq/">FAQ</a></li>
+                            <li><a href="#">Visual settings</a></li>
+                            <li><a href="#">Item status</a></li>
+                            <li><a href="#">Trade bots</a></li>
                         </ul>
                     </div>
                     <div class="section_title_footer">
                         <h3 class="list_title">Terms</h3>
                         <ul class="list_item">
-                            <li>Privacy policy</li>
-                            <li>Terms of use</li>
-                            <li>Subscription terms</li>
-                            <li>Price policy</li>
-                            <li>Cookie policy</li>
-                            <li>Bug bounty</li>
+                            <li><a href="https://cs.money/privacy/">Privacy policy</a></li>
+                            <li><a href="https://cs.money/tos/">Terms of use</a></li>
+                            <li><a href="https://cs.money/subscription-terms/">Subscription terms</a></li>
+                            <li><a href="https://cs.money/refund/">Price policy</a></li>
+                            <li><a href="https://cs.money/cookie/">Cookie policy</a></li>
+                            <li><a href="https://hackerone.com/cs_money">Bug bounty</a></li>
                         </ul>
                     </div>
                     <div class="section_title_footer">
                         <h3 class="list_title">Our projects</h3>
                         <ul class="list_item">
-                            <li>Mobile app</li>
-                            <li>DOTA.MONEY</li>
-                            <li>WIKI</li>
-                            <li>3D Skin Viewer</li>
-                            <li>Antiscam</li>
-                            <li>Blog</li>
+                            <li><a href="https://mobileapp.cs.money/">Mobile app</a></li>
+                            <li><a href="#">DOTA.MONEY</a></li>
+                            <li><a href="https://wiki.cs.money/">WIKI</a></li>
+                            <li><a href="https://3d.cs.money/">3D Skin Viewer</a></li>
+                            <li><a
+                                    href="https://chrome.google.com/webstore/detail/csmoney-antiscam/bocdepodnagbohblgjmooobalmcojkpg">Antiscam</a>
+                            </li>
+                            <li><a href="https://cs.money/blog">Blog</a></li>
                         </ul>
                     </div>
                     <div class="mobile_app_footer">
                         <div class="wrapper window_footer_wrapper">
                             <h3 class="list_title mobile_app_list_title">Mobile app</h3>
-                            <div class="button footer_button">
-                                <div class="footer_button_wrapper">
-                                    <img src="icons/apple_logo.svg" alt="Apple" class="apple_icon">
-                                    <div class="footer_button_info">
-                                        <h3>Download on</h3>
-                                        <div class="footer_button_title">
-                                            <h2>App Store</h2>
+                            <a href="https://apps.apple.com/app/cs-money-app/id1593006197">
+                                <div class="button footer_button">
+                                    <div class="footer_button_wrapper">
+                                        <img src="icons/apple_logo.svg" alt="Apple" class="apple_icon">
+                                        <div class="footer_button_info">
+                                            <h3>Download on</h3>
+                                            <div class="footer_button_title">
+                                                <h2>App Store</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="button footer_button">
-                                <div class="footer_button_wrapper">
-                                    <img src="icons/google_play_icon.svg" alt="Google Play" class="google_play_icon">
-                                    <div class="footer_button_info">
-                                        <h3>Get in on</h3>
-                                        <div class="footer_button_title">
-                                            <h2>Google Play</h2>
+                            </a>
+                            <a
+                                href="https://play.google.com/store/apps/details?id=com.csmoneymobile&shortlink=mainlanding&is_retargeting=true&c=Main+landing+promo&pid=%D0%A1%D0%B0%D0%B9%D1%82+%D0%BA%D1%81.%D0%BC%D0%B0%D0%BD%D0%B8&source_caller=unknown&pli=1">
+                                <div class="button footer_button">
+                                    <div class="footer_button_wrapper">
+                                        <img src="icons/google_play_icon.svg" alt="Google Play"
+                                            class="google_play_icon">
+                                        <div class="footer_button_info">
+                                            <h3>Get in on</h3>
+                                            <div class="footer_button_title">
+                                                <h2>Google Play</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="chrome_extensions_footer">
                         <div class="wrapper window_footer_wrapper">
                             <h3 class="list_title list_title_chrome_extensions">Chrome extensions</h3>
-                            <div class="button footer_button">
-                                <div class="footer_button_wrapper">
-                                    <div class="icon"><img src="icons/market_extension_footer.svg"
-                                            alt="Market extention">
-                                    </div>
-                                    <div class="footer_button_info">
-                                        <h3>Extension</h3>
-                                        <div class="footer_button_title">
-                                            <h2>Market</h2>
+                            <a
+                                href="https://chromewebstore.google.com/detail/csmoney-market/mkjknmlmebnimmkonggecjlccealonel?utm_medium=site&utm_source=footer">
+                                <div class="button footer_button">
+                                    <div class="footer_button_wrapper">
+                                        <div class="icon"><img src="icons/market_extension_footer.svg"
+                                                alt="Market extention">
+                                        </div>
+                                        <div class="footer_button_info">
+                                            <h3>Extension</h3>
+                                            <div class="footer_button_title">
+                                                <h2>Market</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="button footer_button">
-                                <div class="footer_button_wrapper">
-                                    <img src="icons/antiscam_extention.svg" alt="Antiscam extention"
-                                        class="antiscam_extention_icon">
+                            </a>
+                            <a
+                                href="https://chrome.google.com/webstore/detail/csmoney-antiscam/bocdepodnagbohblgjmooobalmcojkpg">
+                                <div class="button footer_button">
+                                    <div class="footer_button_wrapper">
+                                        <img src="icons/antiscam_extention.svg" alt="Antiscam extention"
+                                            class="antiscam_extention_icon">
 
-                                    <div class="footer_button_info">
-                                        <h3>Extension</h3>
-                                        <div class=" footer_button_title">
-                                            <h2>Antiscam</h2>
+                                        <div class="footer_button_info">
+                                            <h3>Extension</h3>
+                                            <div class=" footer_button_title">
+                                                <h2>Antiscam</h2>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
