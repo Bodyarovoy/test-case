@@ -119,6 +119,51 @@ main {
   background-color: #b7a7ff;
 }
 
+.info_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 23.8px;
+  margin-top: 126px;
+}
+.info_box_title_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+.info_box_title {
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.info_box_dscr {
+  color: #BBB9C7;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 135%;
+}
+.info_box_divider {
+  width: 315px;
+  height: 1px;
+  background: #312F3D;
+}
+.info_box_points_text {
+  color: #817E8F;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
 .header_container {
   min-height: 824px;
   padding: 288.5px 0 0 0;
@@ -173,13 +218,13 @@ main {
       -ms-flex-pack: left;
           justify-content: left;
   gap: 39px;
+  margin-left: 140px;
 }
 .trade_window {
   overflow: visible;
   width: 766px;
   height: 571px;
   margin-top: 56px;
-  margin-left: 140px;
 }
 .trade_back_img {
   margin: 85px 0 84px 0;
@@ -189,51 +234,6 @@ main {
   margin-top: 174px;
   margin-left: 274.64px;
   grid-area: 1/2;
-}
-
-.info_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 23.8px;
-  margin-top: 126px;
-}
-.info_box_title_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 8px;
-}
-.info_box_title {
-  color: #FFF;
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 140%;
-}
-.info_box_dscr {
-  color: #BBB9C7;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 135%;
-}
-.info_box_divider {
-  width: 315px;
-  height: 1px;
-  background: #312F3D;
-}
-.info_box_points_text {
-  color: #817E8F;
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 140%;
 }
 
 .market_container {
@@ -256,9 +256,10 @@ main {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 140px;
   gap: 79px;
 }
 .market_window {
@@ -266,7 +267,6 @@ main {
   width: 766px;
   height: 720px;
   margin-top: 56px;
-  margin-right: 140px;
 }
 .market_back_img {
   margin: 117px 171.344px 111.375px 167.31px;
@@ -337,6 +337,12 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.footer_button_wrapper_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 67px;
 }
 .footer_window {
   width: 1408px;
@@ -432,4 +438,74 @@ li a {
 }
 li a:hover {
   color: #8C7EE1;
+}
+
+@media (max-width: 1280px) {
+  .site_info_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
+  }
+  .window_support {
+    margin: 20px;
+  }
+  .trade_back_img {
+    width: 100%;
+  }
+  .trade_front_img {
+    width: 70%;
+    margin-left: 35%;
+  }
+  .market_window {
+    margin-right: 20px;
+  }
+  .market_back_img {
+    margin: 19% 5% 5% 28%;
+    width: 70%;
+  }
+  .market_front_img {
+    width: 57%;
+  }
+  .features_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
+  }
+  .wiki_window {
+    margin: 20px;
+  }
+  .footer_button_wrapper_media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 16px;
+  }
+  .footer_window {
+    height: 360px;
+  }
+}
+@media (max-width: 1024px) {
+  .market_window {
+    height: 550px;
+  }
+  .trade_window {
+    height: 450px;
+  }
+  .footer_window {
+    margin-top: 75px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+.header {
+    &_container {
+        min-height: 824px;
+        padding: 288.5px 0 0 0;
+    }
+}
+
+.button_login {
+    width: 180px;
+    margin: 32px auto;
+    padding: 15px 16px 16px 16px;
+    gap: 8px;
+
+    &_text {
+        padding-top: 3px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

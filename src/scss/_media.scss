@@ -1,0 +1,84 @@
+@media (max-width: 1280px) {
+    .site_info_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .window_support {
+        margin: 20px;
+    }
+
+    .trade {
+        &_back_img {
+            width: 100%;
+
+        }
+
+        &_front_img {
+            width: 70%;
+            margin-left: 35%;
+        }
+    }
+
+    .market {
+        &_window {
+            margin-right: 20px;
+        }
+
+        &_back_img {
+            margin: 19% 5% 5% 28%;
+            width: 70%;
+        }
+
+        &_front_img {
+            width: 57%;
+        }
+    }
+
+    .features_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .wiki_window {
+        margin: 20px;
+    }
+
+    .footer {
+        &_button_wrapper_media {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        &_window {
+            height: 360px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+
+    .market {
+        &_window {
+            height: 550px;
+        }
+
+    }
+
+    .trade {
+        &_window {
+            height: 450px;
+        }
+
+    }
+
+    .footer {
+        &_window {
+            margin-top: 75px;
+        }
+    }
+}
