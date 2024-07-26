@@ -1,0 +1,70 @@
+.window {
+    display: grid;
+    overflow: hidden;
+    height: 590px;
+    width: 608px;
+    border-radius: 8px;
+    background-color: #1C1A24;
+
+    &__title {
+        padding: 48px 0 0 40px;
+        color: $main-text-color;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    &__info {
+        padding: 12px 0 0 40px;
+        color: $sec-text-color;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+
+        &_skin-viewer {
+            padding-top: 8px;
+            font-weight: 500;
+        }
+
+        &_wiki {
+            padding-top: 8px;
+            font-weight: 500;
+        }
+    }
+
+    &_skins {
+        margin-top: 124px;
+    }
+
+    &_support {
+        margin-top: 284px;
+    }
+
+    &_trade {
+        overflow: visible;
+        width: 766px;
+        height: 571px;
+        margin-top: 56px;
+        border-radius: 4px;
+
+    }
+
+    &_market {
+        overflow: visible;
+        width: 766px;
+        height: 720px;
+        margin-top: 56px;
+        border-radius: 4px;
+    }
+
+    &_skin-viewer {
+        justify-items: left;
+    }
+
+    &_wiki {
+        margin-top: 170px;
+        justify-items: left;
+    }
+
+
+}

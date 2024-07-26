@@ -1,0 +1,61 @@
+.infobox {
+    &_trade-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 23.8px;
+        margin-top: 126px;
+    }
+
+    &_market-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 126px;
+    }
+
+    &_header-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__title {
+        color: $main-text-color;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 140%;
+
+        &_market {
+            font-size: 22px;
+        }
+    }
+
+    &__info {
+        color: #BBB9C7;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 139%;
+
+        &_market {
+            line-height: 136%;
+        }
+    }
+
+    &__divider {
+        width: 315px;
+        height: 1px;
+        background: #312F3D;
+    }
+
+    &__point-text {
+        color: #817E8F;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 140%;
+
+        &_market {
+            font-size: 22px;
+        }
+    }
+
+}

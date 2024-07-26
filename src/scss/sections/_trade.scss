@@ -1,0 +1,32 @@
+.trade-logo {
+    padding-top: 96px;
+    padding-left: 132px;
+}
+
+.trade-title {
+    padding-top: 24px;
+    padding-left: 140px;
+    color: $main-text-color;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.44px;
+}
+
+.trade-wrapper {
+    display: flex;
+    justify-content: left;
+    padding-left: 140px;
+    gap: 39px;
+}
+
+.trade-back-img {
+    padding: 85px 0 84px 0;
+    grid-area: 1 / 2;
+}
+
+.trade-front-img {
+    margin-top: 174px;
+    margin-left: 274.64px;
+    grid-area: 1 / 2;
+}

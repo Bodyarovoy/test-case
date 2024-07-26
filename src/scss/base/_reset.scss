@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1,
+h2,
+h3 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+    all: unset;
+    text-decoration: none;
+
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}

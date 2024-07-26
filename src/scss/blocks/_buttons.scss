@@ -1,0 +1,73 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: $main-color;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #b7a7ff;
+    }
+
+    &:focus-visible {
+        outline: 2px solid #FFF;
+        outline-offset: 2px;
+        border-radius: 2px;
+        background-color: #b7a7ff;
+    }
+
+    &__list-item {
+        cursor: pointer;
+
+        &:hover {
+            color: #8C7EE1;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #FFF;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+    }
+}
+
+.button-login {
+    margin-top: 32px;
+    padding: 14px 31px;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 16px;
+
+    &__text {
+        padding-top: 2px;
+        font-size: 18px;
+        color: $main-text-color;
+    }
+
+    &__icon {
+        padding-bottom: 2px;
+    }
+}
+
+.button-window {
+    margin-top: 24px;
+    margin-left: 40px;
+    height: 38px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+
+    &__text {
+        color: $main-text-color;
+    }
+}
+
+.button-logo {
+    width: 110px;
+    height: 40px;
+    padding: 8px 4px;
+    cursor: pointer;
+}

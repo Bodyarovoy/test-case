@@ -1,8 +1,30 @@
-@import "general";
-@import "header";
-@import "site_info";
-@import "trade";
-@import "market";
-@import "features";
-@import "footer";
-@import "media";
+@import "base/reset";
+@import "base/variables";
+@import "blocks/buttons";
+@import "blocks/windows";
+@import "blocks/infobox";
+@import "blocks/footer";
+@import "sections/header";
+@import "sections/site_info";
+@import "sections/trade";
+@import "sections/market";
+@import "sections/features";
+@import "base/media";
+
+
+* {
+    font-family: Inter;
+}
+
+body {
+    background: #100F14;
+}
+
+main {
+    background: url(../img/header_background.png) no-repeat center -2.43%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}

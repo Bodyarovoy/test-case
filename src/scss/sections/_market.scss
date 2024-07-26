@@ -1,0 +1,33 @@
+.market-logo {
+    padding-top: 96px;
+    padding-left: 132px;
+}
+
+.market-title {
+    padding-top: 24px;
+    padding-left: 140px;
+    color: $main-text-color;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.44px;
+}
+
+.market-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    padding-left: 140px;
+    gap: 79px;
+}
+
+.market-back-img {
+    margin: 117px 171.344px 111.375px 167.31px;
+    grid-area: 1 / 2;
+}
+
+.market-front-img {
+    margin: 140px 437.86px 236.7px -16px;
+    grid-area: 1 / 2;
+}
