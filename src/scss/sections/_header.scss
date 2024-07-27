@@ -6,6 +6,7 @@
 }
 
 .header {
+    max-width: 600px;
     padding-top: 288.5px;
     color: $main-text-color;
     font-size: 72px;
@@ -15,6 +16,7 @@
 }
 
 .subheader {
+    max-width: 450px;
     padding-top: 24px;
     color: $sec-text-color;
     line-height: 150%;

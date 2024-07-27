@@ -1,76 +1,173 @@
-@media (max-width: 1280px) {
+@media (max-width: 1450px) {
+    .window {
+
+        height: 50%;
+
+        &__title {
+            padding-top: 3vw;
+            padding-left: 3vw;
+        }
+
+        &__info {
+            max-width: 90%;
+            padding-top: 1vw;
+            padding-left: 3vw;
+        }
+
+        &_trade {
+            height: 39vw;
+
+        }
+
+        &_market {
+            height: 50vw;
+
+        }
+
+        &_skin-viewer {
+            font-size: 1vw;
+        }
+
+        &_wiki {
+            font-size: 1vw;
+        }
+
+    }
+
+    .infobox {
+        &__divider {
+            width: 27vw;
+        }
+
+        &_trade-wrapper {
+            margin-top: 9vw;
+
+        }
+
+        &_market-wrapper {
+            margin-top: 9vw;
+
+        }
+
+
+    }
+
+    .site-info-wrapper {
+        margin: 0 2vw;
+    }
+
+    .skins-img {
+        padding-top: 3vw;
+    }
+
     .trade-logo {
-        padding-left: 72px;
+        padding-left: 9vw;
     }
 
     .trade-title {
-        padding-left: 80px;
+        padding-left: 10vw;
 
     }
 
     .trade-wrapper {
-        padding-left: 80px;
+        padding-right: 10vw;
+        padding-left: 10vw;
+
     }
 
     .trade-back-img {
-        width: 100%;
+        padding: 5vw 0;
     }
 
     .trade-front-img {
         width: 70%;
+        margin-top: 20%;
         margin-left: 35%;
     }
 
     .market-logo {
-        padding-left: 72px;
+        padding-left: 9vw;
     }
 
     .market-title {
-        padding-left: 80px;
+        padding-left: 10vw;
     }
 
     .market-wrapper {
-        padding-left: 80px;
-        gap: 39px;
+        padding-left: 10vw;
+        padding-right: 8vw;
+
     }
 
     .market-back-img {
-        margin: 19% 5% 5% 28%;
-        width: 60%;
+        margin: 15% 0 0 22%;
+        width: 55%;
     }
 
     .market-front-img {
-        width: 57%;
+        width: 45%;
 
+    }
+
+    .features-wrapper {
+        margin: 0 2vw;
     }
 }
 
+@media (max-width: 1280px) {
+    .footer-buttons-wrapper {
+        display: flex;
+        gap: 67px
+    }
+}
+
+
 @media (max-width: 1024px) {
     .window {
-        height: 490px;
         width: 470px;
 
         &__title {
             padding-left: 20px;
+            font-size: 30px;
         }
 
         &__info {
             padding-left: 20px;
-
-            &_skin-viewer {
-                font-size: 16px;
-            }
-
-            &_wiki {
-                font-size: 16px;
-            }
+            font-size: 14px;
         }
     }
 
-    .market-front-img {
-        width: 57%;
+    .infobox {
+        &__info {
+            font-size: 14px;
+        }
+
+        &__point-text {
+            font-size: 16px;
+        }
+
 
     }
+
+    .trade-title {
+        font-size: 56px;
+        width: 90%;
+    }
+
+    .market-title {
+        font-size: 56px;
+        width: 90%;
+    }
+
+    .market-wrapper {
+        gap: 5vw;
+
+    }
+
+    // .market-front-img {
+    //     width: 45%;
+
+    // }
 
     .button-window {
         margin-top: 12px;
@@ -96,74 +193,16 @@
 
 @media (max-width: 768px) {
 
-    .window {
-
-        height: 590px;
-        width: 608px;
-
-        &_skins {
-            margin-top: 0px;
-        }
-
-        &_support {
-            margin-top: 50px;
-        }
-
-        &_wiki {
-            margin-top: 50px;
-            justify-items: left;
-        }
-
-        &_trade {
-            width: 500px;
-            height: 430px;
-
-        }
-
-        &_market {
-            width: 500px;
-            height: 460px;
-        }
-
-
+    .header {
+        padding-top: 285px;
+        font-size: 38px;
+        max-width: 90%;
     }
 
-    .infobox {
-        &_trade-wrapper {
-            margin-top: 106px;
-        }
-
-        &__divider {
-            width: 210px;
-        }
-
-        &__info {
-            font-size: 14px;
-        }
-
-        &__point-text {
-            font-size: 16px;
-        }
-    }
-
-    .trade-title {
-        font-size: 60px;
-    }
-
-    .trade-wrapper {
-        padding-left: 0px;
-        margin-left: -4px;
-        gap: 22px
-    }
-
-    .market-title {
-        font-size: 60px;
-    }
-
-    .market-wrapper {
-        padding-left: 40px;
-        margin-right: -4px;
-
+    .subheader {
+        padding-top: 24px;
+        font-size: 20px;
+        max-width: 90%;
     }
 
     .site-info-wrapper {
@@ -172,72 +211,27 @@
         align-items: center;
     }
 
-    .features-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 25px;
-    }
-
-    footer {
-        display: none;
-    }
-}
-
-
-@media (max-width: 430px) {
-
-    .header {
-        padding-top: 285px;
-        font-size: 38px;
-    }
-
-    .subheader {
-        padding-top: 24px;
-        font-size: 20px;
-    }
-
     .window {
-        height: 370px;
-        width: 300px;
+        width: 75vw;
+        height: 100%;
 
         &__title {
-            display: block;
-            text-align: center;
-            padding-top: 12px;
-            padding-left: 0;
-            font-size: 36px;
-
-        }
-
-        &__info {
-            padding-top: 8px;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 150%;
-
-            &_skin-viewer {
-                padding-top: 0;
-                font-size: 14px;
-            }
-
-            &_wiki {
-                
-                padding-top: 0;
-                font-size: 14px;
-            }
+            font-size: 26px;
+            line-height: 32px;
         }
 
         &_support {
-            margin-top: 25px;
+            margin-top: 28px;
         }
 
         &_trade {
-            height: 240px;
+            width: 100%;
+            height: 20%;
         }
 
         &_market {
-            height: 360px;
+            width: 100%;
+            height: 20%;
         }
 
         &_skin-viewer {
@@ -251,98 +245,66 @@
         }
     }
 
-    .skins-img {
-        padding-top: 28px;
-    }
-
-    .support-chat-img {
-        padding-top: 22px;
-    }
-
-
-    .trade-logo {
-        margin: auto;
-        padding-top: 96px;
-        padding-left: 0;
-
-    }
-
     .infobox {
         &_trade-wrapper {
-            gap: 16.8px;
-            margin-top: 30px;
+            align-items: center;
             text-align: center;
         }
 
         &_market-wrapper {
-            gap: 16.8px;
-            margin-top: 30px;
+            align-items: center;
             text-align: center;
+        }
+
+        &__divider {
+            width: 80%;
         }
     }
 
-    .market-logo {
-        margin: auto;
-        padding-top: 96px;
-        padding-left: 0;
-
-    }
-
     .trade-title {
-        display: block;
-        text-align: center;
-        padding-top: 24px;
-        padding-left: 0;
-        font-size: 29px;
+        font-size: 32px;
     }
 
     .trade-wrapper {
-        display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
-        margin: 0;
         gap: 0;
     }
 
-    .trade-back-img {
-        padding: 40px 0;
-    }
-
-    .trade-front-img {
-        margin-top: 25%;
-        margin-left: 32%
-    }
-
     .market-title {
-        display: block;
-        text-align: center;
-        padding-top: 24px;
-        padding-left: 0;
         font-size: 29px;
     }
 
     .market-wrapper {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        gap: 0;
+        flex-direction: column;
+        gap: 0px;
     }
 
     .market-back-img {
-        margin: 30px 0 0 30px;
+        margin: auto;
     }
 
     .market-front-img {
-        margin: 10px 437.86px 0 0;
+        margin: auto;
+
+
     }
 
-    .site-info-wrapper {
+    .features-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
 
-        padding-top: 275px;
+    .skin-viewer-img,
+    .wiki-img {
+        margin-left: 20px;
     }
 
 
+    footer {
+        display: none;
+    }
 
 }

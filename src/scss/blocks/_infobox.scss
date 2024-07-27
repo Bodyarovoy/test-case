@@ -13,7 +13,7 @@
         margin-top: 126px;
     }
 
-    &_header-wrapper {
+    &__header-wrapper {
         display: flex;
         flex-direction: column;
         gap: 8px;
@@ -31,6 +31,7 @@
     }
 
     &__info {
+        max-width: 250px;
         color: #BBB9C7;
         font-size: 16px;
         font-weight: 500;

@@ -17,6 +17,8 @@
         background-color: #b7a7ff;
     }
 
+
+
     &__list-item {
         cursor: pointer;
 
@@ -29,7 +31,14 @@
             outline-offset: 2px;
             border-radius: 2px;
         }
+
+        &:focus-visible img {
+            outline: 2px solid #FFF;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
     }
+
 }
 
 .button-login {
@@ -63,11 +72,4 @@
     &__text {
         color: $main-text-color;
     }
-}
-
-.button-logo {
-    width: 110px;
-    height: 40px;
-    padding: 8px 4px;
-    cursor: pointer;
 }
