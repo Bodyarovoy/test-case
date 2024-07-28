@@ -37,15 +37,15 @@ gulp.task('html', function () {
 
 });
 
-gulp.task('icons', function () {
-    return gulp.src("src/icons/**/*")
-        .pipe(gulp.dest("dist/icons"))
+// gulp.task('icons', function () {
+//     return gulp.src("src/icons/**/*")
+//         .pipe(gulp.dest("dist/icons"))
 
-});
+// });
 
 // gulp.task('images', function () {
 //     return gulp.src("src/img/**/*")
 //         .pipe(gulp.dest("dist/img"))
 // });
 
-gulp.task('default', gulp.parallel('watch', 'live_server', 'style_converter', 'html', 'icons'));
+gulp.task('default', gulp.parallel('watch', 'live_server', 'style_converter', 'html'));
