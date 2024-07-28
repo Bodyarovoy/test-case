@@ -15,22 +15,22 @@
     }
 
     &__info {
-        padding: 12px 0 0 40px;
-        max-width: 500px;
+        margin: 12px 0 0 40px;
+        max-width: 450px;
         color: $sec-text-color;
         font-size: 18px;
         font-weight: 600;
         line-height: 150%;
 
         &_skin-viewer {
-            max-width: 550px;
-            padding-top: 8px;
+            max-width: 520px;
+            margin-top: 8px;
             font-weight: 500;
         }
 
         &_wiki {
-            max-width: 550px;
-            padding-top: 8px;
+            max-width: 520px;
+            margin-top: 8px;
             font-weight: 500;
         }
     }
@@ -49,7 +49,6 @@
         height: 571px;
         margin-top: 56px;
         border-radius: 4px;
-
     }
 
     &_market {
@@ -68,6 +67,4 @@
         margin-top: 170px;
         justify-items: left;
     }
-
-
 }

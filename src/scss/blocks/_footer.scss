@@ -5,7 +5,6 @@ footer {
     height: 252px;
     margin: 152px auto 0;
     padding: 16px;
-
 }
 
 .footer-section {
@@ -43,15 +42,20 @@ footer {
         padding: 8px;
         gap: 12px;
         background: #312F3D;
-        cursor: pointer;
         border-radius: 4px;
-
+        cursor: pointer;
     }
+}
+
+.button-main-logo {
+    padding: 8px 5px;
+
 }
 
 .footer-buttons-wrapper {
     display: flex;
-    gap: 67px
+    justify-content: space-between;
+    width: 32.52%;
 }
 
 .extantion_icon {

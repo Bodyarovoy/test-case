@@ -1,0 +1,31 @@
+{
+  "name": "test.cs.money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bodyarovoy/test-case.git"
+  },
+  "author": "Bogdan Iarovoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodyarovoy/test-case/issues"
+  },
+  "homepage": "https://github.com/Bodyarovoy/test-case#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "cli": "^1.0.1",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  }
+}

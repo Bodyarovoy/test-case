@@ -1,27 +1,24 @@
 @media (max-width: 1450px) {
     .window {
-
         height: 50%;
 
         &__title {
-            padding-top: 3vw;
-            padding-left: 3vw;
+            margin-top: 3vw;
+            margin-left: 3vw;
         }
 
         &__info {
             max-width: 90%;
-            padding-top: 1vw;
-            padding-left: 3vw;
+            margin-top: 1vw;
+            margin-left: 3vw;
         }
 
         &_trade {
             height: 39vw;
-
         }
 
         &_market {
             height: 50vw;
-
         }
 
         &_skin-viewer {
@@ -46,10 +43,7 @@
 
         &_market-wrapper {
             margin-top: 9vw;
-
         }
-
-
     }
 
     .site-info-wrapper {
@@ -57,7 +51,7 @@
     }
 
     .skins-img {
-        padding-top: 3vw;
+        margin-top: 3vw;
     }
 
     .trade-logo {
@@ -66,13 +60,11 @@
 
     .trade-title {
         padding-left: 10vw;
-
     }
 
     .trade-wrapper {
         padding-right: 10vw;
         padding-left: 10vw;
-
     }
 
     .trade-back-img {
@@ -96,7 +88,6 @@
     .market-wrapper {
         padding-left: 10vw;
         padding-right: 8vw;
-
     }
 
     .market-back-img {
@@ -106,7 +97,6 @@
 
     .market-front-img {
         width: 45%;
-
     }
 
     .features-wrapper {
@@ -117,7 +107,17 @@
 @media (max-width: 1280px) {
     .footer-buttons-wrapper {
         display: flex;
-        gap: 67px
+        flex-direction: column;
+        width: auto;
+        gap: 16px
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .button-main-logo {
+        display: none;
     }
 }
 
@@ -127,12 +127,12 @@
         width: 470px;
 
         &__title {
-            padding-left: 20px;
+            margin-left: 20px;
             font-size: 30px;
         }
 
         &__info {
-            padding-left: 20px;
+            margin-left: 20px;
             font-size: 14px;
         }
     }
@@ -145,8 +145,6 @@
         &__point-text {
             font-size: 16px;
         }
-
-
     }
 
     .trade-title {
@@ -161,13 +159,11 @@
 
     .market-wrapper {
         gap: 5vw;
-
     }
 
-    // .market-front-img {
-    //     width: 45%;
-
-    // }
+    .features-wrapper {
+        padding-bottom: 64px;
+    }
 
     .button-window {
         margin-top: 12px;
@@ -182,11 +178,10 @@
     .wiki-img {
         margin-top: 14px;
         margin-left: 40px;
-
     }
 
-    .footer {
-        height: 365px;
+    footer {
+        display: none;
     }
 
 }
@@ -194,7 +189,7 @@
 @media (max-width: 768px) {
 
     .header {
-        padding-top: 285px;
+        padding-top: 200px;
         font-size: 38px;
         max-width: 90%;
     }
@@ -209,11 +204,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 180px;
     }
 
     .window {
         width: 75vw;
-        height: 100%;
 
         &__title {
             font-size: 26px;
@@ -236,7 +231,6 @@
 
         &_skin-viewer {
             display: block;
-
         }
 
         &_wiki {
@@ -277,24 +271,22 @@
 
     .market-wrapper {
         flex-direction: column;
-        gap: 0px;
+        gap: 0;
     }
 
     .market-back-img {
-        margin: auto;
+        margin: 0 auto;
     }
 
     .market-front-img {
-        margin: auto;
-
-
+        margin: 0 auto;
     }
 
     .features-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 25px;
+        padding-bottom: 64px;
     }
 
     .skin-viewer-img,
@@ -302,9 +294,14 @@
         margin-left: 20px;
     }
 
-
     footer {
         display: none;
     }
+}
 
+
+@media (max-width: 450px) {
+    .window {
+        height: 75vw;
+    }
 }
